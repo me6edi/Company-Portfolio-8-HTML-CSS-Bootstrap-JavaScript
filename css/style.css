@@ -18,6 +18,7 @@ a, a:hover,a:active,a:focus{
   list-style-type: none !important;
   text-decoration: none !important;
   border: none !important;
+  color: #fff;
 }
 ul,li{
   list-style: none;  
@@ -25,16 +26,13 @@ ul,li{
 img{
   max-width: 100%;
 }
-h1, h2, h3, h4, h5, h6, a, ul, ol, button, input, p{
-  margin: 0;
-  padding: 0;
-}
 
 body{
   font-family: 'Open Sans', sans-serif;
 }
 .logo{
   font-family: 'Pacifico', cursive;
+   color: #ffc155;
 }
 /*==========================================================
     btn:-
@@ -58,8 +56,9 @@ body{
     Header Start
 ============================================================*/
 .headerArea{
-  background: url(../img/slider-bg-1.jpg) no-repeat center center / cover;
+
   position: relative;
+  padding: 30px 0;
 }
 .headerArea::before{
   position: absolute;
@@ -70,6 +69,39 @@ body{
   height: 100%; 
   background: rgb(19, 5, 35, 0.51);
 } 
-section.headerArea{
-  padding: 30px 0;
+
+.nav a:hover{
+  color: #ffc155;
+}
+
+.singleWelcome{
+  color: #fff;
+}
+.singleWelcome h1{
+  font-size: 48px;
+  font-weight: bold;
+}
+.offer-icon{
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  float: left;
+  margin-right: 15px;
+  color: #719DCA;
+}
+.offerContent {
+  padding-left: 65px;
+}
+.offerContent h5{
+  color: #394b50;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.carousel-item img{
+  width: 100%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 40px;
+  height: 40px;
 }
