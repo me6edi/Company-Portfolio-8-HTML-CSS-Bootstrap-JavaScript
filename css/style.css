@@ -7,7 +7,7 @@
 /*===================== Google Fonts Start =============================*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Pacifico&display=swap');
 /*===================== Google Fonts End =============================*/
-
+html { overflow-x: hidden; }
 /*Start Framework*/
 *{
   margin: 0;
@@ -69,11 +69,17 @@ body{
   height: 100%; 
   background: rgb(19, 5, 35, 0.51);
 } 
-
-.nav a:hover{
-  color: #ffc155;
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.993);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 0.993);
 }
 
+.navbar-nav a {
+  font-weight: 700;
+  font-size: 16px;
+}
 .singleWelcome{
   color: #fff;
 }
@@ -92,11 +98,15 @@ body{
 }
 .offerContent {
   padding-left: 65px;
+  color: #7b7b7b;
 }
 .offerContent h5{
   color: #394b50;
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0px;
+  line-height: 32px;
 }
 .carousel-item img{
   width: 100%;
@@ -104,4 +114,91 @@ body{
 .carousel-control-next-icon, .carousel-control-prev-icon {
   width: 40px;
   height: 40px;
+}
+.sectionTitle h3{
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #709dca;
+}
+.offerArea{
+  margin: 90px 0;
+}
+.sectionTitle p{
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+.offer-icon:hover i {
+  color: #ffc155;
+  cursor: pointer;
+}
+.weareArea{
+  position: relative;
+  height: 625px;
+  overflow: hidden;
+}
+.photos-img{
+  position: absolute;
+  width: 50%;
+  left: 0;
+  top: 0;
+}
+.weareArea .col-md-6{
+  background: #ffc155 none repeat scroll 0 0;
+  color: #fff;
+  position: relative;
+}
+
+.weareArea .col-md-6::before{
+  background: #ffc155 none repeat scroll 0 0;
+  content: "";
+  height: 214%;
+  position: absolute;
+  right: -381px;
+  width: 10042px;
+  z-index: -1;
+}
+
+.weareContent {
+  text-align: center;
+  margin-top: 200px;
+  margin-right: -375px;
+}
+.weareContent h2{
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.btn.bg-default {
+  text-transform: uppercase;
+  background: #e7ad48;
+  color: #fff;
+  border: 2px solid #cb8d21 !important;
+}
+.sectionTitle {
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.sectionTitle .title-icon{
+  position: relative;
+  color: #ffc155;
+}
+.sectionTitle .title-icon::before{
+  position: absolute;
+  left: -0px;
+  top: 0;
+  width: 70px;
+  height: 1px;
+  background: #cb8d21;
+  content: "";
+}
+.sectionTitle .title-icon::after{
+  position: absolute;
+  right: -0px;
+  margin: 0;
+  top: 0;
+  content: "";
+  background: #cb8d21;
+  width: 70px;
+  height: 1px;
 }
