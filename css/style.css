@@ -173,7 +173,7 @@ body{
   text-transform: uppercase;
   background: #e7ad48;
   color: #fff;
-  border: 2px solid #cb8d21 !important;
+  border: 3px solid #cb8d21 !important;
 }
 .sectionTitle {
   padding-right: 70px;
@@ -182,23 +182,50 @@ body{
 .sectionTitle .title-icon{
   position: relative;
   color: #ffc155;
+  margin-bottom: 30px;
 }
 .sectionTitle .title-icon::before{
   position: absolute;
   left: -0px;
-  top: 0;
-  width: 70px;
+  top: 50%;
+  width: 100px;
   height: 1px;
-  background: #cb8d21;
+  background: #ffc155 none repeat scroll 0 0;
   content: "";
+  margin-left: 360px;
 }
 .sectionTitle .title-icon::after{
   position: absolute;
   right: -0px;
   margin: 0;
-  top: 0;
+  top: 50%;
   content: "";
-  background: #cb8d21;
-  width: 70px;
+  background: #ffc155 none repeat scroll 0 0;
+  width: 100px;
   height: 1px;
+  margin-right: 360px;
+}
+.title-icon i {
+  font-size: 35px;
+}
+.sectionTitle h3 {
+  margin-top: 100px;
+}
+.isotopNav > li{
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  background: #fff;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  transition: .3s;
+}
+.isotopNav > li:hover{
+  background: #709dca;
+  color: black;
+}
+.singleIsotop{
+  width: 25%;
+  float: left;
 }

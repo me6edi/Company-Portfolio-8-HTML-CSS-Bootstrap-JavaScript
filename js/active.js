@@ -9,5 +9,6 @@ $(document).ready(function(){
     //     navTxt:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
 
     // });
+    
 
   });
