@@ -221,11 +221,60 @@ body{
   cursor: pointer;
   transition: .3s;
 }
-.isotopNav > li:hover{
-  background: #709dca;
+.button-group > button:hover{
+  background: #ffc155;
   color: black;
 }
 .singleIsotop{
   width: 25%;
   float: left;
+}
+.button-group button {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  background: #fff;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  margin-bottom: 50px;
+  border: none;
+}
+button:focus{
+  outline: none;
+}
+.our-projectz:hover{
+  background: #ffc155;
+  cursor: pointer;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 15px;
+  margin-top: 120px;
+}
+.footer-icon ul li {
+  display: inline-block;
+}
+.footer-icon i {
+  width: 31px;
+  font-size: 25px;
+}
+.footer p {
+  font-size: 20px;
+}
+.footer-icon , p{
+  margin-top: 30px;
+}
+.card{
+  transition: .3s;
+}
+.card:hover {
+  background: #ffc155;
+  color: #fff;
+  cursor: pointer;
+}
+.footer-icon i:hover {
+  color: #ffc155;
 }
