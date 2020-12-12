@@ -48,10 +48,6 @@ body{
 
 /*End Framework*/
 
-
-
-
-
 /*==========================================================
     Header Start
 ============================================================*/
@@ -247,7 +243,6 @@ button:focus{
   background: #ffc155;
   cursor: pointer;
 }
-
 .footer {
   background: #000;
   color: #fff;
